@@ -1,0 +1,61 @@
+body {
+    background:url(background.jpg) no-repeat;
+    background-position: 50% 0%;
+    font-family: 'Didact Gothic', sans-serif;
+    width:900px;
+    background-color:#000;
+    margin: 0 auto;
+    height:1162px;
+}
+
+h1 { font-size: 300%; padding:0; margin:0;}
+
+a {
+    text-decoration:underline;
+    color:#000;
+}
+
+nav a {
+    text-decoration:none;
+}
+
+a:hover {
+    color:#747a58;
+}
+
+#container {
+    margin:0 auto;
+    padding-top:120px;
+    padding-left:120px;
+    height:1000px;
+}
+
+header {
+    padding-left: 120px;
+
+}
+
+nav {
+    padding-top:25px;
+}
+
+nav ul {
+    font-size:1.5em;
+    list-style-type:none;
+}
+
+nav ul li {
+    display:inline;
+    padding-right: 110px;
+}
+
+article {
+    width: 670px;
+}
+
+footer {
+    text-align:center;
+    padding-bottom:20px;
+    width:100%;
+}
+
