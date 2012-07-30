@@ -71,7 +71,7 @@
             <img id="logo" src="<?php bloginfo('template_directory'); ?>/images/logo.png" width="400">
         </header>
               <nav id="access" role="navigation">
-<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+            <?php if (function_exists('pixopoint_menu')) {pixopoint_menu();} ?>
               </nav>
 
 <article>
